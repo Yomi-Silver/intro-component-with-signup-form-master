@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  background: url(./images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-family: poppins, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 50vh;
+  margin: 40px;
+}
+
+.textSection {
+    color: #fff;
+  width: 470px;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; 
+  font-weight: bold;
+}
+
+.textSection h2 {
+  font-size: 50px; 
+  margin-bottom: 30px;
+}
+
+.textSection p{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+
+
+.formContainer {
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.formSection{
+    padding: 20px;
+    background-color: #fff;
+    width: 450px;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+ .blueBG button{
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, 0.4);
+}
+
+.blueBG button span{
+    font-weight: lighter;
+}
+
+input{
+    height: 40px;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.formSection button{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #fff;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    /* text-transform: capitalize; */
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+#warning1, #warning2, #warning3, #warning4, #warning5{
+    text-align: end;
+    color: #ff0000;
+    font-style: italic;
+    font-size: x-small;
+    margin-top: 2px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    transition: 0.2s ease-in-out;
+    /* visibility: hidden; */
+}
+ .clicking{
+     color: rgba(0, 0, 0, 0.5);
+     font-size: 12px;
+     margin-bottom: 30px;
+ }
+
+ .clicking span{
+     color: #ff0000;
+     font-weight: bold;
+ }
+
+
+/* 
+.formSection{
+    display: flex;
+    flex-direction: column;
+} */
